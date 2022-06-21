@@ -8286,11 +8286,8 @@ var __webpack_exports__ = {};
 (() => {
 const axios = __nccwpck_require__(9081);
 const core = __nccwpck_require__(9905);
-//const github = require('@actions/github');
 
 const url = core.getInput('url', { required: true });
-//const url = "http://202.165.24.140:1337/jpns?jenis=pengumuman"
-//axios.get(url,params)
 axios.get(url)
 .then(res => {
     console.log(res)
