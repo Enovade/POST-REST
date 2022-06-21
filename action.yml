@@ -6,7 +6,7 @@ inputs:
     description: 'URL to send POST REST'
     required: true
 outputs:
-  result: 
+  jawapan: 
     description: 'The results'
 
 runs:
