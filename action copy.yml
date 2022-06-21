@@ -1,10 +1,6 @@
 name: 'Sending POST REST using GitHub Action'
 description: 'Sending POST REST using GitHub Action'
 author: 'Hanafiah <hanafiah@enovade.com>'
-inputs:
-  url:
-    description: 'URL to send POST REST'
-    required: true
 
 runs:
   using: 'node16'
