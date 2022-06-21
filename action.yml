@@ -1,0 +1,11 @@
+name: 'Sending POST REST using GitHub Action'
+description: 'Sending POST REST using GitHub Action'
+author: 'Hanafiah <hanafiah@enovade.com>'
+
+runs:
+  using: 'node16'
+  main: 'index.js'
+
+branding:
+  color: 'blue'
+  icon: 'file-plus'
