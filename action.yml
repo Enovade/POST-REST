@@ -5,6 +5,9 @@ inputs:
   url:
     description: 'URL to send POST REST'
     required: true
+outputs:
+  result: 
+    description: 'The results'
 
 runs:
   using: 'node16'
